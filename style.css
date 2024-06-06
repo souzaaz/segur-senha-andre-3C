@@ -5,5 +5,14 @@
     --branco:white;
     --cor-de-fundo:#00162e;
     --fundo-senhra:#00244d;
-    
+    --fundo-texto: #0075ff;
+    --borda: #001e40;
+    --roboto: 'roboto', sans-serif;
+    --roboto: 'roboto mono',sans-serif
+}
+
+body{
+    color: var(branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
