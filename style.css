@@ -8,7 +8,7 @@
     --fundo-texto: #0075ff;
     --borda: #001e40;
     --roboto: 'roboto', sans-serif;
-    --roboto: 'roboto mono',sans-serif
+    --roboto-mono: 'roboto mono',sans-serif
 }
 
 body{
@@ -16,3 +16,14 @@ body{
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
+
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+}
+    
