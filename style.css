@@ -4,11 +4,15 @@
 :root{
     --branco:white;
     --cor-de-fundo:#00162e;
-    --fundo-senhra:#00244d;
+    --fundo-senha:#00244d;
     --fundo-texto: #0075ff;
     --borda: #001e40;
     --roboto: 'roboto', sans-serif;
     --roboto-mono: 'roboto mono',sans-serif
+}
+    
+*{
+    font-weight: 400;
 }
 
 body{
@@ -26,4 +30,14 @@ body{
 .titulo-secundario{
     font-size: 24px;
 }
-    
+   
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 88px;
+}
+
+.conteudo-senha{
+background-color: var(--fundo-senha);
+padding: 24px;
+
+}
