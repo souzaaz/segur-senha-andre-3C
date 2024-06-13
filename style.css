@@ -4,7 +4,7 @@
 :root{
     --branco:white;
     --cor-de-fundo:#00162e;
-    --fundo-senha:#00244d;
+    --fundo-da-senha:#00244d;
     --fundo-texto: #001e40;
     --borda: #0075ff;
     --roboto: 'roboto', sans-serif;
@@ -37,14 +37,14 @@ body{
 }
 
 .conteudo-senha{
-background-color: var(--fundo-senha);
+background-color: var(--fundo-da-senha);
 padding: 24px;
 border-bottom: 6px solid var(--borda);
 margin-top: 80px;
 }
 
 #campo-senha{
-    background-color: var(--fundo-senha);
+    background-color: var(--fundo-da-senha);
     border: none;
     color: var(--branco);
     font-family: var(--roboto-mono);
